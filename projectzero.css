@@ -1,0 +1,33 @@
+body{
+  background-color: black;
+}
+h1, h2{
+  text-align: center;
+  color: white;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  margin:0 auto;
+  position: relative;
+}
+div{
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  display:inline-block;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.box{
+  background-color: #37E82A;
+}
+
+button{
+text-align: center;
+font-size: 25px;
+margin: 0 auto;
+}
+input{
+  font-size: 20px;
+}
