@@ -3,6 +3,8 @@ winning combinations col  ([1,4,7].[7,4,1],[2,5,8],[8,5,2],[3,6,9],[9,6,3]) - co
 winning combinations dia  ([1,5,9],[9,5,1],[3,5,7],[7,5,3]) - dia*/
 
 $(document).ready(function(){
+var winBlue = 0;
+var winRed = 0;
 var move;
 var player1 = "";
 var player2 = "";
@@ -10,8 +12,9 @@ var turn = 0;
 var grid = [[0,0,0],[0,0,0],[0,0,0]];
 var hasWinner = 0, moveCount = 0;
 
-$("button").on("click", function(){
-  $(".box").removeClass("disable blue red")
+
+$(".newGame").on("click", function(){
+  $(".box").removeClass("disable blue red").fadeOut(1000).fadeIn(1000);
 });
 
   $("#one").on("click", function(){
@@ -211,6 +214,7 @@ var check=function(){
         else if(turn === 9){
           alert("It's a tie !");
         }
+
 
 
 };

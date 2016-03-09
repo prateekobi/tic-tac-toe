@@ -2,8 +2,17 @@ body{
   background-color: black;
 }
 h1, h2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
   text-align: center;
-  color: white;
+  color: #F6D608;
+  display: inline-block;
+}
+.headRed{
+  color: red;
+}
+.headBlue{
+  color: blue;
 }
 .container{
   height: 100%;
@@ -47,7 +56,7 @@ input{
 }
 .box:hover {
 	background-color: darkcyan;
-	color: LightSkyBlue;
+
 }
 .blue{
   background-color:blue;
@@ -58,6 +67,11 @@ input{
   font-size: 160px;
 }
 img{
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+}
+.start{
+  margin: 20px;
 }
