@@ -24,6 +24,7 @@ div{
 }
 .box{
   background-color: #37E82A;
+  box-sizing: border-box;
 }
 
 button{
@@ -40,7 +41,6 @@ input{
   font-size: 100%;
 }
 .red{
-  te
   text-align: center;
   background-color: red;
   font-size: 20px;
@@ -51,10 +51,13 @@ input{
 }
 .blue{
   background-color:blue;
-  font-size: 165px;
+  font-size: 160px;
 }
 .red{
   background-color:red;
-  font-size: 165px;
-
+  font-size: 160px;
+}
+img{
+  height: 100px;
+  width: 100px;
 }

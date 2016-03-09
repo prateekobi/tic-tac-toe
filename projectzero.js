@@ -10,7 +10,9 @@ var turn = 0;
 var grid = [[0,0,0],[0,0,0],[0,0,0]];
 var hasWinner = 0, moveCount = 0;
 
-
+$("button").on("click", function(){
+  $(".box").removeClass("disable blue red")
+});
 
   $("#one").on("click", function(){
     if($("#one").hasClass("disable")){
@@ -209,4 +211,6 @@ var check=function(){
         else if(turn === 9){
           alert("It's a tie !");
         }
+
+
 };
