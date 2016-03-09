@@ -14,7 +14,7 @@ var hasWinner = 0, moveCount = 0;
 
 
 $(".newGame").on("click", function(){
-  $(".box").removeClass("disable blue red").fadeOut(1000).fadeIn(1000);
+  $(".box").removeClass("disable blue red").hide().fadeIn(2000);
 });
 
   $("#one").on("click", function(){
