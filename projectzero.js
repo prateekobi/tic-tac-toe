@@ -215,6 +215,4 @@ var check=function(){
           alert("It's a tie !");
         }
 
-
-
 };
