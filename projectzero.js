@@ -19,7 +19,7 @@ $(".newGame").on("click", function(){
 
   $("#one").on("click", function(){
     if($("#one").hasClass("disable")){
-      alert("you cannot place your move here");
+      swal("you cannot place your move here");
     }
     else{
     $("#one").addClass("disable");
@@ -38,7 +38,7 @@ check();
 
 $("#two").on("click", function(){
   if($("#two").hasClass("disable")){
-    alert("you cannot place your move here");
+    swal("you cannot place your move here");
   }
   else{
   $("#two").addClass("disable");
@@ -57,7 +57,7 @@ check();
 
 $("#three").on("click", function(){
   if($("#three").hasClass("disable")){
-    alert("you cannot place your move here");
+    swal("you cannot place your move here");
   }
   else{
   $("#three").addClass("disable");
@@ -76,7 +76,7 @@ check();
 
 $("#four").on("click", function(){
   if($("#four").hasClass("disable")){
-    alert("you cannot place your move here");
+    swal("you cannot place your move here");
   }
   else{
   $("#four").addClass("disable");
@@ -95,7 +95,7 @@ check();
 
 $("#five").on("click", function(){
   if($("#five").hasClass("disable")){
-    alert("you cannot place your move here");
+    swal("you cannot place your move here");
   }
   else{
   $("#one").addClass("disable");
@@ -114,7 +114,7 @@ check();
 
 $("#six").on("click", function(){
   if($("#six").hasClass("disable")){
-    alert("you cannot place your move here");
+    swal("you cannot place your move here");
   }
   else{
   $("#six").addClass("disable");
@@ -133,7 +133,7 @@ check();
 
 $("#seven").on("click", function(){
   if($("#seven").hasClass("disable")){
-    alert("you cannot place your move here");
+    swal("you cannot place your move here");
   }
   else{
   $("#seven").addClass("disable");
@@ -152,7 +152,7 @@ check();
 
 $("#eight").on("click", function(){
   if($("#eight").hasClass("disable")){
-    alert("you cannot place your move here");
+    swal("you cannot place your move here");
   }
   else{
   $("#eight").addClass("disable");
@@ -171,7 +171,7 @@ check();
 
 $("#nine").on("click", function(){
   if($("#nine").hasClass("disable")){
-    alert("you cannot place your move here");
+    swal("you cannot place your move here");
   }
   else{
   $("#nine").addClass("disable");
@@ -199,7 +199,7 @@ var check=function(){
      $("#three").hasClass("blue") && $("#six").hasClass("blue") && $("#nine").hasClass("blue") ||
      $("#one").hasClass("blue") && $("#five").hasClass("blue") && $("#nine").hasClass("blue") ||
      $("#three").hasClass("blue") && $("#five").hasClass("blue") && $("#seven").hasClass("blue")){
-       alert("BLUE player one wins !!");
+       swal("BLUE player one wins !!");
      }
      else if($("#one").hasClass("red") && $("#two").hasClass("red") && $("#three").hasClass("red") ||
         $("#four").hasClass("red") && $("#five").hasClass("red") && $("#six").hasClass("red") ||
@@ -212,7 +212,7 @@ var check=function(){
           alert("RED player one wins !!");
         }
         else if(turn === 9){
-          alert("It's a tie !");
+          swal("It's a tie !");
         }
 
 };
