@@ -9,7 +9,7 @@
 2.https://thebigtoespeaks.files.wordpress.com/2012/12/big-toe-smiley-face1.jpeg?w=300
 
 ## What is it ?
-A simple tic tac toe game, yet instead of "O" and "X" it's Blue vs Red.
+A simple tic tac toe game, yet instead of "O" and "X" it's TicTac vs TOE.
 Two player game alternating between red and blue.
 
 ## How it works.
