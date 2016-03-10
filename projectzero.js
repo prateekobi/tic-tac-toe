@@ -199,7 +199,7 @@ var check=function(){
      $("#three").hasClass("blue") && $("#six").hasClass("blue") && $("#nine").hasClass("blue") ||
      $("#one").hasClass("blue") && $("#five").hasClass("blue") && $("#nine").hasClass("blue") ||
      $("#three").hasClass("blue") && $("#five").hasClass("blue") && $("#seven").hasClass("blue")){
-       swal("BLUE player one wins !!");
+       swal("TIC TAC wins !!");
      }
      else if($("#one").hasClass("red") && $("#two").hasClass("red") && $("#three").hasClass("red") ||
         $("#four").hasClass("red") && $("#five").hasClass("red") && $("#six").hasClass("red") ||
@@ -209,7 +209,7 @@ var check=function(){
         $("#three").hasClass("red") && $("#six").hasClass("red") && $("#nine").hasClass("red") ||
         $("#one").hasClass("red") && $("#five").hasClass("red") && $("#nine").hasClass("red") ||
         $("#three").hasClass("red") && $("#five").hasClass("red") && $("#seven").hasClass("red")){
-          alert("RED player one wins !!");
+          alert("TOE wins !!");
         }
         else if(turn === 9){
           swal("It's a tie !");

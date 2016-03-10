@@ -60,11 +60,13 @@ input{
 
 }
 .blue{
-  background-color:blue;
+  background-size: 150px 150px;
+  background-image:url("http://goodlogo.com/images/logos/tic_tac_logo_2483.gif");
   font-size: 160px;
 }
 .red{
-  background-color:red;
+  background-size: 150px 150px;
+  background-image: url("https://thebigtoespeaks.files.wordpress.com/2012/12/big-toe-smiley-face1.jpeg?w=300");
   font-size: 160px;
 }
 img{

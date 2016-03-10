@@ -20,3 +20,7 @@ Two player game alternating between red and blue.
 * hide() and fadeIn() functions used to make board fade back in.
 
 * sweet alert plugin used to differ alert boxes from original alerts.
+
+## Github DEMO
+
+* http://prateekobi.github.io/tic-tac-toe/
